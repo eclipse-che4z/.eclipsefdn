@@ -28,6 +28,7 @@ orgs.newOrg('eclipse-che4z') {
       ],
     },
     orgs.newRepo('che-che4z-explorer-for-endevor') {
+      archived: true,
       allow_merge_commit: true,
       allow_update_branch: false,
       default_branch: "master",

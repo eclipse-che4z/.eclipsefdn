@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-che4z') {
+orgs.newOrg('ecd.che.che4z', 'eclipse-che4z') {
   settings+: {
     description: "",
     name: "Eclipse Che4z",
